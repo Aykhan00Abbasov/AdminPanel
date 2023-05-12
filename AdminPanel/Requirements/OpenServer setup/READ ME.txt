@@ -1,0 +1,14 @@
+Follow the steps below for Open Server to work correctly
+
+I couldn't put the file here because Github has 100mb restriction :( 
+But you can download it from "https://ospanel.io/download/".
+
+1. Download Open Server from the link I gave.
+2. Install the setup.
+3. Run Open Server.
+4. The flag icon will appear at the bottom right, click the icon.
+5. Click on "Settings".
+6. Switch to the "Modules" section from the tabs that appear.
+7. In the window that opens, select MySQL-5.7-Win10 in the MySQL / MariaDB section.
+8. Click the "Save" button and exit.
+9. Click the Flag icon again and press the "Run server" button.

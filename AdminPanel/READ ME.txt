@@ -1,0 +1,12 @@
+Hello,
+
+My name is Aykhan.
+I wrote "Admin Panel" here. The codes are completely mine and I continue to edit some parts of it.
+
+Requirements for the code to work:
+1. OpenServer. (It is in the requirements file.)
+2. After downloading Open Server, put the "AdminPanel" file in the shortcut "C:\OSPanel\domains". (Since the database you will use will be on the open server, you need to add the codes to the OpenServerin file.)
+3. You need to add the SQL base created by me to your Open Server. (It is in the requirements file.)
+4. If you have completed all the steps correctly, you can now run the codes.
+
+NOTE: I write my codes in Notepad++, but you can open it in any program you want, still I recommend Notepad++.

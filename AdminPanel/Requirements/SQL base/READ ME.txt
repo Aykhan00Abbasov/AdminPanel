@@ -1,0 +1,27 @@
+For the codes to work correctly, you need to add my SQL base to your Open Server.
+
+First of all, you need to activate MySQLi on your Open Server.
+To activate, follow the steps shown below:
+1. Run Open Server.
+2. Click the flag icon.
+3. Run "Console" from the "Advanced" section.
+4. After the console opens, type "mysql -u root -p" and press enter.
+5. You will see a text like "Enter password:". Do not type anything here and press enter again.
+6. Close the console.
+
+
+To add my SQL base, follow the steps shown below:
+1. Click the flag icon.
+2. Make sure Open Server is still on, if it is off, run it again with the "Run server" button.
+3. Then click the "PhpMyAdmin" button from the "Advanced" section.
+4. In the Opera tab that opens, type root in the "Username" field and leave the "Password" blank, then press the "Login" button.
+5. Press the "New" button in the new tab that opens.
+6. Type "uni_base" in the "Database name" field and press the "create" button.
+7. Then you will see the database "uni_base" with the given one, click on it.
+8. Press the "Import" button in the new tab that opens.
+9. Click on "Choose file" in the tab that opens and add the "uni_base.sql" SQL base I gave you there.
+10. Press the "Import" button at the bottom.
+11. You will see that the koika table has been added to the "uni_base" database.
+
+
+If you see the "koika" table you did everything right. Otherwise, try reviewing the steps again.

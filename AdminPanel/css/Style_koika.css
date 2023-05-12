@@ -1,0 +1,371 @@
+body{
+
+    background-color: white;
+	
+}
+
+/*  ------------------------------------ box_up  Start ---------------------------------------------------------------- */
+
+.box_up{
+
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    background-color: white;
+    box-shadow: 0px 1px 12px #000000;
+    width: auto;
+    height: 80px;
+
+}
+
+.user_name{
+
+    position: relative;
+	margin: 10px 26px;
+    font-size: 18px;
+    color: black;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+
+/*  ------------------------------------ box_up  End ------------------------------------------------------------------ */
+
+/*  ------------------------------------ box_left  Start ---------------------------------------------------------------- */
+
+.box_left{
+
+    display: block;
+    position: absolute;
+	border-right: 4px solid black;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 3, 69, 1);
+    width: 240px;
+    height: auto;
+
+}
+
+.logo{
+    
+    position: relative;
+	padding-bottom: 50px;
+    top: 25px;
+    left: 45px;
+    width: 140px;
+    height: auto;
+
+}
+
+.form{
+	
+	width: 150px;
+	
+} 
+
+.text{
+   
+	position: relative;
+	margin: 5px auto;
+	width: 240px;
+	
+	background-color: white;
+    color: black;
+	border: none ;
+	border-width: 3px;
+	text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+	padding: 5px;
+	
+}
+
+.icons{
+	
+	view-box
+
+}
+
+.text:hover{
+	
+	background-color: rgba(0, 3, 69, 1);
+	color: white;
+	fill: white;
+	text-align: right;
+	
+}
+
+.fənn a {
+	
+	background-color: white;
+	text-decoration: none;
+	width: 230px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 5px;
+	display:inline-block;
+	text-align: center;
+	
+}
+ul {
+	
+	margin: 0;
+	padding: 0;
+}
+
+ul li ul {
+
+	position: absolute;
+	width: 200px;
+	display: none;
+  
+}
+
+ul li ul li { 
+
+	margin: 5px auto;
+	display: block; 
+  
+}
+
+
+ul li ul li a:hover{
+	
+	background-color: rgba(0, 3, 69, 1);
+	color: white;
+	transition-duration: 0s;
+	
+}
+
+.button {
+	
+	position: relative;
+	margin: 12px 0;
+	width: 240px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-radius: 7px;
+	border: none;
+	box-shadow: 0 9px #999;
+}
+
+.button:active {
+	
+	background-color: black;
+	color: white;
+	box-shadow: 0 5px white;
+	transform: translateY(4px);
+	
+}
+
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.show {
+	
+	display:block;
+	
+}
+
+
+/*  ------------------------------------ box_left  End ---------------------------------------------------------------- */
+
+/*  ------------------------------------box_center Elanlar  Start---------------------------------------------------------------- */
+
+.box_center_elanlar{
+	
+	position: absolute;
+	top: 82px;
+	left: 260px;
+	
+	border-radius: 4px;
+	background-color: #FFF;
+	box-shadow: 0px 3px 6px 5px #C3C3C3;
+	
+	width: 1260px;
+	height: 300px;
+	
+}
+
+.text_name{
+	
+	position: relative;
+	color: black;
+	font-size: 28px;
+	text-align: left;
+	margin: 16px 10px;
+}
+
+
+.table{
+	
+	position: relative;
+	margin: 0;
+	width: 98%;
+	border:3px solid #96D4D4;
+	border-collapse: collapse;
+	
+}
+
+.th{
+	
+	border:1px solid black;
+	margin: 0 0;
+	border:2px solid #96D4D4;
+}
+
+.td{
+	
+	text-align: center;
+	padding: 10px;
+	
+}
+
+/*  ------------------------------------ box_center Elanlar  End ---------------------------------------------------------------- */
+
+/*  ------------------------------------box_center Şəxsi məlumatlar  Start---------------------------------------------------------------- */
+
+
+.box_center_şəxsi_məlumatlar_başlıq{
+	
+	position: absolute;
+	top: 82px;
+	left: 260px;
+	
+	border-radius: 4px;
+	background-color: #FFF;
+	box-shadow: 0px 3px 6px 5px #C3C3C3;
+	
+	width: 1260px;
+	height: 100px;
+	
+}
+
+.box_center_şəxsi_məlumatlar_table{
+	
+	position: absolute;
+	top: 230px;
+	left: 260px;
+	
+	border-radius: 4px;
+	background-color: #FFF;
+	box-shadow: 0px 3px 6px 5px #C3C3C3;
+	
+	width: 1260px;
+	height: 356px;
+	
+}
+
+.text_name{
+	
+	position: relative;
+	color: black;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin: 18px 10px -8px;
+	font-family: new times roman;
+	
+}
+
+.text_panel_name{
+	
+	position: relative;
+	margin: 11px;
+	color: darkblue;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.table_şəxsi_məlumatlar{
+	
+	position: relative;
+	margin: 16px auto;
+	width: 98%;
+	border-collapse: collapse;
+	
+}
+
+.mtd{
+	
+	margin: 0 0;
+	border:3px solid darkblue;
+	width: 50%;
+
+}
+
+
+/*  ------------------------------------ box_center Şəxsi məlumatlar  End ---------------------------------------------------------------- */
+
+/*  ------------------------------------ box_center Cədvəl  Start ---------------------------------------------------------------- */
+
+
+
+.box_center_cədvəl{
+	
+	position: absolute;
+	top: 80px;
+	left: 260px;
+	
+	width: 1260px;
+	height: 300px;
+	
+}
+
+.text_center{
+	
+	position: relative;
+	margin: 20px 10px 10px;
+	color: darkblue;
+	font-size: 32px;
+	text-align: left;
+	
+/* Elanlar bölməsində ki, başlıqda bura daxildir daxildir */
+
+}
+
+.table{
+	
+	position: relative;
+	margin: 0 auto ;
+	width: 98%;
+	border:3px solid #96D4D4;
+	border-collapse: collapse;
+	
+}
+
+.th{
+	
+	border:1px solid black;
+	margin: 0 0;
+	border:2px solid #96D4D4;
+}
+
+
+/*  ------------------------------------ box_center Cədvəl  End ---------------------------------------------------------------- */
